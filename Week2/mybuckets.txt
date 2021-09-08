@@ -1,0 +1,4 @@
+Bucket: week2-bucket-hamdija369
+Bucket: week2-bucket-hamdija369-ex2
+error.html
+index.html
