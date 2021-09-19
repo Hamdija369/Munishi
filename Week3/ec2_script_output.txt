@@ -1,0 +1,4 @@
+Instanace created, state is: running
+Instanace created, Public IP Address is: 18.212.237.219
+No Tags Found Here
+{'Key': 'Name', 'Value': 'Hamdi'}
