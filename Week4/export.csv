@@ -1,0 +1,5 @@
+InstanceId,InstanceType,State,PublicIpAddress,Monitoring,ImageId
+i-05551f93a9cbdbc47,t2.micro,running,54.242.22.137,{'State': 'disabled'},ami-00068cd7555f543d5
+i-0a0c4b14cda993613,t2.micro,running,52.87.224.74,{'State': 'disabled'},ami-00068cd7555f543d5
+i-0d0c5517af21892e6,t2.micro,running,54.89.255.132,{'State': 'disabled'},ami-00068cd7555f543d5
+i-0be2795cf572c6382,t2.micro,running,54.164.170.213,{'State': 'disabled'},ami-00068cd7555f543d5
