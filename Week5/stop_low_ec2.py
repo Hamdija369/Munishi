@@ -29,11 +29,12 @@ response = cw_client.put_metric_alarm(
     MetricName='CPUUtilization',
     Namespace='AWS/EC2',
     Period=300,
+    Statistic='Average',
     Threshold=10.0,
     ActionsEnabled=True,
     AlarmActions=[
         f'arn:aws:swf:us-east-1:{account_id}:action/actions/AWS_EC2.InstanceId.Stop/1.0',
-        f'arn:aws:swf:us-east-1:{account_id}:low-notification'
+        f'arn:aws:sns:us-east-1:{account_id}:low-notification'
     ],
     AlarmDescription='Alarm when server CPU is lower than 10%',
     Dimensions=[
