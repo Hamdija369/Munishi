@@ -34,3 +34,5 @@ if __name__== "__main__":
 
 if args.group_id == securitygroups['GroupId']:
     print(f'The Security Group you are Inquiring About is Open to the Internet!!! \nHere is a description of the IP Range: {cidr}')
+
+##########Hamdi 10/20/2021##########

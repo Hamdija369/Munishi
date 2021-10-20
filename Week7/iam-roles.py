@@ -21,4 +21,4 @@ for page in paginator.paginate():
         if policy['CreateDate'] > (pytz.utc.localize(datetime.datetime.utcnow())-datetime.timedelta(days=90)):
             print(f'Policy Name: - {policy["PolicyName"]}')
             print(f'Creation Date: - {policy["CreateDate"]}')
-##########
+##########Hamdi 10/20/2021##########
