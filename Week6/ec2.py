@@ -24,7 +24,7 @@ def Create_EC2(AMI,ec2_client):
     response = ec2_client.run_instances(
 
         ImageId=AMI,
-        InstanceType='t2.microHamdi',
+        InstanceType='t2.micro',
         MaxCount=1,
         MinCount=1,
         SecurityGroups = ['WebSG'],
