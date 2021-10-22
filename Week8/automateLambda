@@ -1,0 +1,20 @@
+How I would Automate Lambda
+
+1: The name of the method you use to create a new lambda function
+	create_function
+
+2: The required parameters for the method that creates a lambda function
+	FunctionName
+	Role
+	Code
+	FilesystemConfigs
+		Arn
+		LocalMountPath
+
+3: The ways you can specify the python code for the method that creates a lambda function
+	
+	The Lambda function handler   lambda_handler
+	Deploy a .zip file
+	Deploy container images
+		
+	

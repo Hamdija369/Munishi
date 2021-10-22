@@ -1,0 +1,10 @@
+
+Other S3 Monitoring
+
+	1: Keep track of files added to specific S3 Buckets. 
+		Have a report sent to you (You can designate how often)
+		Or maybe just the last (new) file added.
+	2: Audit Logging
+		Find out who is making requests and for what S3 resources
+	3: Monitor logs for events
+		What users are trying to get to specific S3 Buckets
