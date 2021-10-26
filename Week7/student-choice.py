@@ -16,3 +16,5 @@ for stacksummaries in response['StackSummaries']:
     print(f"The Status for this Stack is: {stacksummaries['StackStatus']}") # This command Will only return the status of the stack and nothing else. 
 
 # For this portion of the assignment I had created a new stack named "Hamdi" from a script from the AWS Admin class. Was experimenting with it. Since I had only one Stack originally available. 
+
+##########Hamdi 10/20/2021##########
