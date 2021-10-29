@@ -1,0 +1,21 @@
+Other things I might want to monitor to ensure the account security
+
+	1: Monitor SignIn Failures to AWS Console
+	2: Monitor for IAM user/Roles that had AccessDenied events 
+	3: Monitor when the root account is used
+	4: Monitor when a source IP address is outside of a certain country
+	5: Monitor when a user gets admin privileges
+	
+     Question #1: Imagine you want to determine whether or not users in your environment have MFA enabled
+		   and alert you if there are any that do not. 
+		   What boto3 client and functions would you use to determine that information? 
+
+          ****** #1: I would use the IAM Client function called:
+		            list_mfa_devices
+
+     Question #2: If you wanted to automate this check, which AWS services would you need to configure? 
+		   Add this to your otherSecurityMontiring.txt document.
+
+          ****** #2: Use the IAM Management Console
+	
+	
