@@ -1,0 +1,18 @@
+Step 3: On Your Own
+
+Use the API Reference to find libraries. 
+
+1.	Which Python library do you need to install to deploy a Web App in Azure?
+******** pip install azure-mgmt-web
+******** Found other sources talking about installing Flask as well not sure what the difference is between the two. 
+
+2.	Which function of the web_apps module do you need to use to create a new web app?
+******** begin_create_or_update(RESOURCE_GROUP_NAME, VM_NAME,
+
+3.	Which Python library do you need to install to manage Key Vault Secrets in Azure?
+******** azure-keyvault-secrets Package
+
+4.	What function do you use to retrieve a secret from the Key Vault?
+******** retrieved_secret = client.get_secret(secretName)
+
+5.	Save these questions and answers in a text document in your weekly folder called step3-api-ref.txt
