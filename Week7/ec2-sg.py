@@ -12,7 +12,7 @@ response = ec2_client.describe_security_groups(
         "Values": ["0.0.0.0/0"]
     }
 ])
-#print(response['SecurityGroups'])
+print(response['SecurityGroups'])
 for securitygroups in response['SecurityGroups']:
     for iprange in securitygroups['IpPermissions']:
         for cidr in iprange['IpRanges']:
